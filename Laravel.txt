@@ -1,0 +1,31 @@
+LARAVEL-BELAJAR
+
+ getting start dengan composer 1 per 1
+-  composer create-project laravel/laravel coba-laravel
+
+intall secara global
+- composer global require laravel/installer
+- laravel new example-app
+- cd example-app
+- php artisan serve
+
+
+install valet
+- https://laravel.com/docs/8.x/valet#main-content
+
+package valet
+- https://packagist.org/packages/cretueusebiu/valet-windows
+
+jika sudah maka =>
+- 1. rubah network setting => ethernet => Change adapter options => iih connection yang terhubung
+- 2 properties pilih IPV4 lalu rubah => preferred DNS server  { 127 .0.0.1}/ defaultnya dan aternate bolehkosong atau {8.8.8.8}
+- 3 IPV6 rubah reference {  ::1 }
+
+
+lalu rubah config apache XAMPP
+- PILIH Config apache  pilih  httpd.conf  => ctrl f cari yang 80   => 8080 ada dua ya
+- Nanti localhost => localhost:80808  apache
+
+masuk ke console
+- {valet park} ke folder yang kita tuju   untuk projek laravel
+- cara jalan kan pukan pake php artisan serve => nama folder.test
